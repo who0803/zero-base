@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../../src/components/Icon.js"],"names":["Icon","path","iconState"],"mappings":"AAAA,IAAMA,IAAI,GAAG,SAAPA,IAAO,OAAuB;AAAA,MAArBC,IAAqB,QAArBA,IAAqB;AAAA,MAAfC,SAAe,QAAfA,SAAe;AAClC,SACE;AAAK,IAAA,GAAG,EAAED,IAAV;AAAgB,IAAA,GAAG,EAAEC;AAArB,IADF;AAGD,CAJD;;AAMA,eAAeF,IAAf","sourcesContent":["const Icon = ({path, iconState}) => {\r\n  return (\r\n    <img src={path} alt={iconState} />\r\n  )\r\n}\r\n\r\nexport default Icon"],"file":"Icon.js"}
+=======
+{"version":3,"file":"Icon.js","names":["Icon","path","iconState"],"sources":["../../src/components/Icon.js"],"sourcesContent":["const Icon = ({path, iconState}) => {\r\n  return (\r\n    <img src={path} alt={iconState} />\r\n  )\r\n}\r\n\r\nexport default Icon"],"mappings":"AAAA,IAAMA,IAAI,GAAG,SAAPA,IAAI,OAA0B;EAAA,IAArBC,IAAI,QAAJA,IAAI;IAAEC,SAAS,QAATA,SAAS;EAC5B,OACE;IAAK,GAAG,EAAED,IAAK;IAAC,GAAG,EAAEC;EAAU,EAAG;AAEtC,CAAC;AAED,eAAeF,IAAI"}
+>>>>>>> 3e6a5029bc182714067e79153c3f826423365bdd

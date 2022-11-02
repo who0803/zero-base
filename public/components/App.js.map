@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../../src/components/App.js"],"names":["Button","App"],"mappings":"AAAA,OAAOA,MAAP,MAAmB,aAAnB;;AAEA,IAAMC,GAAG,GAAG,SAANA,GAAM,GAAM;AAChB,SACE,0CACE,oBAAC,MAAD;AAAQ,IAAA,QAAQ,EAAE;AAAlB,IADF,EAEE,oBAAC,MAAD;AAAQ,IAAA,QAAQ,EAAE;AAAlB,IAFF,CADF;AAMD,CAPD;;AASA,eAAeA,GAAf","sourcesContent":["import Button from \"./Button.js\";\r\n\r\nconst App = () => {\r\n  return (\r\n    <>\r\n      <Button isActive={true}/>\r\n      <Button isActive={false}/>\r\n    </>\r\n  )\r\n}\r\n\r\nexport default App;"],"file":"App.js"}
+=======
+{"version":3,"file":"App.js","names":["Button","App"],"sources":["../../src/components/App.js"],"sourcesContent":["import Button from \"./Button.js\";\r\n\r\nconst App = () => {\r\n  return (\r\n    <>\r\n      <Button isActive={true}/>\r\n      <Button isActive={false}/>\r\n    </>\r\n  )\r\n}\r\n\r\nexport default App;"],"mappings":"AAAA,OAAOA,MAAM,MAAM,aAAa;AAEhC,IAAMC,GAAG,GAAG,SAANA,GAAG,GAAS;EAChB,OACE,0CACE,oBAAC,MAAM;IAAC,QAAQ,EAAE;EAAK,EAAE,EACzB,oBAAC,MAAM;IAAC,QAAQ,EAAE;EAAM,EAAE,CACzB;AAEP,CAAC;AAED,eAAeA,GAAG"}
+>>>>>>> 3e6a5029bc182714067e79153c3f826423365bdd
