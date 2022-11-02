@@ -1,0 +1,91 @@
+@import url('./common/initializer.css');
+
+body {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #e5e5e5;
+  color: #fff;
+  font: 100 50vh/1 'Spoqa Han Sans Neo', sans-serif;
+}
+
+output {
+  user-select: none;
+  cursor: inherit;
+  animation: wiggle steps(3) 600ms infinite alternate;
+}
+
+.stop-animate {
+  animation-name: none;
+}
+
+@keyframes wiggle {
+  0% {
+    opacity: 1;
+  }
+  33.3333% {
+    opacity: 0.4;
+  }
+  66.6666% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.reloadButton {
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  position: relative;
+  margin: 20px;
+  width: 89px;
+  height: 30px;
+  left: calc(50% - 89px/2);
+  top: calc(50% - 30px/2);
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px #DBDDF0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+button > span {
+  position: absolute;
+  width: 47px;
+  height: 12px;
+  left: 12px;
+  top: calc(50% - 12px/2);
+  
+  font-family: 'Spoqa Han Sans Neo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+
+  color: #525577;
+}
+
+button[disabled] > * {
+  color: #ADAEB6;
+}
+
+img {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 65px;
+  top: 9px;
+}
