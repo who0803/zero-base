@@ -1,5 +1,4 @@
 import Button from "./Button.js";
-
 var App = function App() {
   return React.createElement(React.Fragment, null, React.createElement(Button, {
     isActive: true
@@ -7,6 +6,5 @@ var App = function App() {
     isActive: false
   }));
 };
-
 export default App;
 //# sourceMappingURL=App.js.map

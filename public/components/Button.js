@@ -1,12 +1,9 @@
 import Icon from './Icon.js';
-
 var Button = function Button(_ref) {
   var isActive = _ref.isActive;
-
   var _React$useState = React.useState(''),
-      button = _React$useState[0],
-      setButton = _React$useState[1];
-
+    button = _React$useState[0],
+    setButton = _React$useState[1];
   var buttonInfo = {
     idle: ['업로드', '../assets/upload-Icons.svg'],
     pending: ['업로드 중', '../assets/loading-spinner.svg'],
@@ -14,16 +11,15 @@ var Button = function Button(_ref) {
     rejected: ['실패', '../assets/fail-icons.svg'],
     disabled: ['업로드', '../assets/not-allow-icons.svg']
   };
-
   var uploadFile = function uploadFile() {
     setButton('pending');
     if (button === 'pending') return;
+
     var timerId = setTimeout(function () {
       setButton(Math.floor(Math.random() * 10) % 2 === 0 ? 'resolved' : 'rejected');
       clearTimeout(timerId);
     }, 2000);
   };
-
   React.useEffect(function () {
     setButton(isActive ? 'idle' : 'disabled');
   }, []);
@@ -35,6 +31,5 @@ var Button = function Button(_ref) {
     iconState: button && buttonInfo[button][0]
   }));
 };
-
 export default Button;
 //# sourceMappingURL=Button.js.map
