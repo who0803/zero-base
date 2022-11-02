@@ -2,7 +2,7 @@
 
 # Icon, UploadButton Component
 
-# App**, Button, Icon Component**
+# App, Button, Icon Component
 
 ---
 
