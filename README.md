@@ -3,11 +3,9 @@
 
 # App, Button, Icon Component
 
----
 
 ## index.html
 
----
 
 ```html
 <script type="module" src="main.js"></script>
@@ -17,7 +15,6 @@ index.html에서 Entry 파일인 `main.js`를 불러온다.
 
 ## main.js
 
----
 
 ```jsx
 import App from './components/App.js'
@@ -29,7 +26,6 @@ App 컴포넌트를 import해와서 `document.getElementById('root')`에 render�
 
 ## components/App.js
 
----
 
 ```jsx
 import Button from "./Button.js";
@@ -52,7 +48,6 @@ Button 컴포넌트를 import해와서 render.
 
 ## components/Button.js
 
----
 
 ```jsx
 import Icon from './Icon.js'
@@ -166,7 +161,6 @@ export default Button;
 
 ## components/Icon.js
 
----
 
 ```jsx
 const Icon = ({path, iconState}) => {
