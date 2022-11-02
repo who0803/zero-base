@@ -1,6 +1,5 @@
 ###### Connect To Front-end
 
-# Icon, UploadButton Component
 
 # App, Button, Icon Component
 
